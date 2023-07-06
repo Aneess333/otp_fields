@@ -1,7 +1,7 @@
 name: otp_fields
 description: A new Flutter project.
 version: 0.0.1
-homepage:
+homepage: https://github.com/Aneess333/otp_fields
 
 environment:
   sdk: '>=3.0.1 <4.0.0'
