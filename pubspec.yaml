@@ -1,5 +1,5 @@
 name: otp_fields
-description: A new Flutter project.
+description: The "otp_fields" package is a versatile and customizable Flutter package that provides a set of OTP (One-Time Password) input fields for easy integration into your Flutter applications. With this package, you can quickly and effortlessly create OTP input fields for various purposes such as phone number verification, two-factor authentication, or any scenario that requires user authentication using OTP.
 version: 0.0.1
 homepage: https://github.com/Aneess333/otp_fields
 

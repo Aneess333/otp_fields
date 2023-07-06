@@ -127,12 +127,12 @@ class _OtpFieldsCustomState extends State<OtpFieldsCustom> {
         return widget.focusedBorderColor ?? Theme.of(context).primaryColor;
       } else if (_textControllers[index]?.text.isNotEmpty == true &&
           _textControllers[index]?.text != "\u200b") {
-        return widget.filledBorderColor ?? CustomColors.BLACK_COLOR;
+        return widget.filledBorderColor ?? CustomColors.blackColor;
       } else {
-        return widget.emptyBorderColor ?? CustomColors.LIGHT_WHITE_COLOR;
+        return widget.emptyBorderColor ?? CustomColors.lightWhiteColor;
       }
     }
-    return widget.emptyBorderColor ?? CustomColors.LIGHT_WHITE_COLOR;
+    return widget.emptyBorderColor ?? CustomColors.lightWhiteColor;
   }
 
   Widget _buildOtpField({required int index, required BuildContext context}) {
@@ -153,7 +153,7 @@ class _OtpFieldsCustomState extends State<OtpFieldsCustom> {
       child: Container(
         height: MediaQuery.of(context).size.width * 0.15,
         decoration: BoxDecoration(
-            color: widget.backgroundColor ?? CustomColors.WHITE,
+            color: widget.backgroundColor ?? CustomColors.white,
             border: Border.all(color: getBorderColor(index)),
             borderRadius: BorderRadius.circular(8)),
         width: MediaQuery.of(context).size.width * 0.12,
